@@ -1,14 +1,13 @@
-run<-function(){
+run_analysis<-function(){
 
-    # checking and loading additional packages    
+    # loading dplyr package    
     
-    dplyr_path<-find.package("dplyr")
-    is_dplyr<-match("there is no package", dplyr_path)
-    if (!is.na(is_dplyr)) {install.packages(dplyr)}
     library(dplyr)
     
 # 1. Merges the training and the test sets to create one data set.
 # ----------------------------------------------------------------
+
+    # starting simple progress visualisation system
 
     message("Reading data...")
     t1<-Sys.time()
@@ -63,14 +62,14 @@ run<-function(){
     std_match<-grep("std", features, ignore.case=TRUE)
     index<-c(mean_match, std_match, c(562:563))
     
-    # dropping derivatives
+    # dropping derivatives (meanfreq and angles)
 
     meanfreq_match<-grep("meanfreq", features, ignore.case=TRUE)
     angle_match<-grep("angle", features, ignore.case=TRUE)
     dropped<-c(meanfreq_match, angle_match)
     index<-setdiff(index, dropped)        
 
-    # sorting the index
+    # sorting the index (for debugging convenience)
     
     index<-sort(index)
     
@@ -102,6 +101,7 @@ run<-function(){
     header_long<-gsub("^t", "Time", header_new)
     header_long<-gsub("^f", "Frequency", header_long)
     header_long<-gsub("Acc", "Accelerometer", header_long)
+    header_long<-gsub("Gyro", "Gyroscope", header_long)
     header_long<-gsub("Mag", "Magnitude", header_long)
     header_long<-gsub("mean", "Mean", header_long)
     header_long<-gsub("std", "Std", header_long)

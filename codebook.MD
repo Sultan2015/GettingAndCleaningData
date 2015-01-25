@@ -32,28 +32,28 @@ No | Variable                                    | Domain    | Source  | Sensor 
 16 | TimeBodyAccelerometerJerkStdX               | Time      | Body    | Accelerometer | Yes | X              | Std  | unitless
 17 | TimeBodyAccelerometerJerkStdY               | Time      | Body    | Accelerometer | Yes | Y              | Std  | unitless
 18 | TimeBodyAccelerometerJerkStdZ               | Time      | Body    | Accelerometer | Yes | Z              | Std  | unitless
-19 | TimeBodyGyroMeanX                           | Time      | Body    | Gyro          | No  | X              | Mean | unitless
-20 | TimeBodyGyroMeanY                           | Time      | Body    | Gyro          | No  | Y              | Mean | unitless
-21 | TimeBodyGyroMeanZ                           | Time      | Body    | Gyro          | No  | Z              | Mean | unitless
-22 | TimeBodyGyroStdX                            | Time      | Body    | Gyro          | No  | X              | Std  | unitless
-23 | TimeBodyGyroStdY                            | Time      | Body    | Gyro          | No  | Y              | Std  | unitless
-24 | TimeBodyGyroStdZ                            | Time      | Body    | Gyro          | No  | Z              | Std  | unitless
-25 | TimeBodyGyroJerkMeanX                       | Time      | Body    | Gyro          | Yes | X              | Mean | unitless
-26 | TimeBodyGyroJerkMeanY                       | Time      | Body    | Gyro          | Yes | Y              | Mean | unitless
-27 | TimeBodyGyroJerkMeanZ                       | Time      | Body    | Gyro          | Yes | Z              | Mean | unitless
-28 | TimeBodyGyroJerkStdX                        | Time      | Body    | Gyro          | Yes | X              | Std  | unitless
-29 | TimeBodyGyroJerkStdY                        | Time      | Body    | Gyro          | Yes | Y              | Std  | unitless
-30 | TimeBodyGyroJerkStdZ                        | Time      | Body    | Gyro          | Yes | Z              | Std  | unitless
+19 | TimeBodyGyroscopeMeanX                      | Time      | Body    | Gyroscope     | No  | X              | Mean | unitless
+20 | TimeBodyGyroscopeMeanY                      | Time      | Body    | Gyroscope     | No  | Y              | Mean | unitless
+21 | TimeBodyGyroscopeMeanZ                      | Time      | Body    | Gyroscope     | No  | Z              | Mean | unitless
+22 | TimeBodyGyroscopeStdX                       | Time      | Body    | Gyroscope     | No  | X              | Std  | unitless
+23 | TimeBodyGyroscopeStdY                       | Time      | Body    | Gyroscope     | No  | Y              | Std  | unitless
+24 | TimeBodyGyroscopeStdZ                       | Time      | Body    | Gyroscope     | No  | Z              | Std  | unitless
+25 | TimeBodyGyroscopeJerkMeanX                  | Time      | Body    | Gyroscope     | Yes | X              | Mean | unitless
+26 | TimeBodyGyroscopeJerkMeanY                  | Time      | Body    | Gyroscope     | Yes | Y              | Mean | unitless
+27 | TimeBodyGyroscopeJerkMeanZ                  | Time      | Body    | Gyroscope     | Yes | Z              | Mean | unitless
+28 | TimeBodyGyroscopeJerkStdX                   | Time      | Body    | Gyroscope     | Yes | X              | Std  | unitless
+29 | TimeBodyGyroscopeJerkStdY                   | Time      | Body    | Gyroscope     | Yes | Y              | Std  | unitless
+30 | TimeBodyGyroscopeJerkStdZ                   | Time      | Body    | Gyroscope     | Yes | Z              | Std  | unitless
 31 | TimeBodyAccelerometerMagnitudeMean          | Time      | Body    | Accelerometer | No  | NA (magnitude) | Mean | unitless
 32 | TimeBodyAccelerometerMagnitudeStd           | Time      | Body    | Accelerometer | No  | NA (magnitude) | Std  | unitless
 33 | TimeGravityAccelerometerMagnitudeMean       | Time      | Gravity | Accelerometer | No  | NA (magnitude) | Mean | unitless
 34 | TimeGravityAccelerometerMagnitudeStd        | Time      | Gravity | Accelerometer | No  | NA (magnitude) | Std  | unitless
 35 | TimeBodyAccelerometerJerkMagnitudeMean      | Time      | Body    | Accelerometer | Yes | NA (magnitude) | Mean | unitless
 36 | TimeBodyAccelerometerJerkMagnitudeStd       | Time      | Body    | Accelerometer | Yes | NA (magnitude) | Std  | unitless
-37 | TimeBodyGyroMagnitudeMean                   | Time      | Body    | Gyro          | No  | NA (magnitude) | Mean | unitless
-38 | TimeBodyGyroMagnitudeStd                    | Time      | Body    | Gyro          | No  | NA (magnitude) | Std  | unitless
-39 | TimeBodyGyroJerkMagnitudeMean               | Time      | Body    | Gyro          | Yes | NA (magnitude) | Mean | unitless
-40 | TimeBodyGyroJerkMagnitudeStd                | Time      | Body    | Gyro          | Yes | NA (magnitude) | Std  | unitless
+37 | TimeBodyGyroscopeMagnitudeMean              | Time      | Body    | Gyroscope     | No  | NA (magnitude) | Mean | unitless
+38 | TimeBodyGyroscopeMagnitudeStd               | Time      | Body    | Gyroscope     | No  | NA (magnitude) | Std  | unitless
+39 | TimeBodyGyroscopeJerkMagnitudeMean          | Time      | Body    | Gyroscope     | Yes | NA (magnitude) | Mean | unitless
+40 | TimeBodyGyroscopeJerkMagnitudeStd           | Time      | Body    | Gyroscope     | Yes | NA (magnitude) | Std  | unitless
 41 | FrequencyBodyAccelerometerMeanX             | Frequency | Body    | Accelerometer | No  | X              | Mean | unitless
 42 | FrequencyBodyAccelerometerMeanY             | Frequency | Body    | Accelerometer | No  | Y              | Mean | unitless
 43 | FrequencyBodyAccelerometerMeanZ             | Frequency | Body    | Accelerometer | No  | Z              | Mean | unitless
@@ -66,20 +66,20 @@ No | Variable                                    | Domain    | Source  | Sensor 
 50 | FrequencyBodyAccelerometerJerkStdX          | Frequency | Body    | Accelerometer | Yes | X              | Std  | unitless
 51 | FrequencyBodyAccelerometerJerkStdY          | Frequency | Body    | Accelerometer | Yes | Y              | Std  | unitless
 52 | FrequencyBodyAccelerometerJerkStdZ          | Frequency | Body    | Accelerometer | Yes | Z              | Std  | unitless
-53 | FrequencyBodyGyroMeanX                      | Frequency | Body    | Gyro          | No  | X              | Mean | unitless
-54 | FrequencyBodyGyroMeanY                      | Frequency | Body    | Gyro          | No  | Y              | Mean | unitless
-55 | FrequencyBodyGyroMeanZ                      | Frequency | Body    | Gyro          | No  | Z              | Mean | unitless
-56 | FrequencyBodyGyroStdX                       | Frequency | Body    | Gyro          | No  | X              | Std  | unitless
-57 | FrequencyBodyGyroStdY                       | Frequency | Body    | Gyro          | No  | Y              | Std  | unitless
-58 | FrequencyBodyGyroStdZ                       | Frequency | Body    | Gyro          | No  | Z              | Std  | unitless
+53 | FrequencyBodyGyroscopeMeanX                 | Frequency | Body    | Gyroscope     | No  | X              | Mean | unitless
+54 | FrequencyBodyGyroscopeMeanY                 | Frequency | Body    | Gyroscope     | No  | Y              | Mean | unitless
+55 | FrequencyBodyGyroscopeMeanZ                 | Frequency | Body    | Gyroscope     | No  | Z              | Mean | unitless
+56 | FrequencyBodyGyroscopeStdX                  | Frequency | Body    | Gyroscope     | No  | X              | Std  | unitless
+57 | FrequencyBodyGyroscopeStdY                  | Frequency | Body    | Gyroscope     | No  | Y              | Std  | unitless
+58 | FrequencyBodyGyroscopeStdZ                  | Frequency | Body    | Gyroscope     | No  | Z              | Std  | unitless
 59 | FrequencyBodyAccelerometerMagnitudeMean     | Frequency | Body    | Accelerometer | No  | NA (magnitude) | Mean | unitless
 60 | FrequencyBodyAccelerometerMagnitudeStd      | Frequency | Body    | Accelerometer | No  | NA (magnitude) | Std  | unitless
 61 | FrequencyBodyAccelerometerJerkMagnitudeMean | Frequency | Body    | Accelerometer | Yes | NA (magnitude) | Mean | unitless
 62 | FrequencyBodyAccelerometerJerkMagnitudeStd  | Frequency | Body    | Accelerometer | Yes | NA (magnitude) | Std  | unitless
-63 | FrequencyBodyGyroMagnitudeMean              | Frequency | Body    | Gyro          | No  | NA (magnitude) | Mean | unitless
-64 | FrequencyBodyGyroMagnitudeStd               | Frequency | Body    | Gyro          | No  | NA (magnitude) | Std  | unitless
-65 | FrequencyBodyGyroJerkMagnitudeMean          | Frequency | Body    | Gyro          | Yes | NA (magnitude) | Mean | unitless
-66 | FrequencyBodyGyroJerkMagnitudeStd           | Frequency | Body    | Gyro          | Yes | NA (magnitude) | Std  | unitless
+63 | FrequencyBodyGyroscopeMagnitudeMean         | Frequency | Body    | Gyroscope     | No  | NA (magnitude) | Mean | unitless
+64 | FrequencyBodyGyroscopeMagnitudeStd          | Frequency | Body    | Gyroscope     | No  | NA (magnitude) | Std  | unitless
+65 | FrequencyBodyGyroscopeJerkMagnitudeMean     | Frequency | Body    | Gyroscope     | Yes | NA (magnitude) | Mean | unitless
+66 | FrequencyBodyGyroscopeJerkMagnitudeStd      | Frequency | Body    | Gyroscope     | Yes | NA (magnitude) | Std  | unitless
 
 *(1) Hadley Wickham (RStudio). Tidy Data. Journal of Statistical Software (under review).*
 
