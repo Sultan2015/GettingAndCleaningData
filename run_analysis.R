@@ -124,8 +124,8 @@ run<-function(){
     time_diff<-gsub("Time difference of ", "", time_diff)
     message(paste("Done in", round(as.numeric(time_diff), 3), "seconds."))
     
-    # returning dataset from stage 4 (opposite to what was written to the file)
+    # returning dataset
 
-    return(dataset2)
+    return(dataset3)
 
 }
