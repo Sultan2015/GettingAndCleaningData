@@ -115,7 +115,6 @@ run<-function(){
 # ---------------------------------------------------------------------------
 
     dataset3<-summarise_each(group_by(dataset2, Activity, Subject, add=TRUE), funs(mean))
-    write.table(dataset3, "analysis.txt", row.name=FALSE)
     
     # simple progress message
 
