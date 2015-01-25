@@ -20,8 +20,8 @@ The task was to make tidy dataset according to instructions. In order to impleme
 - [x] 3. Uses descriptive activity names to name the activities in the data set.
   - [x] Reads activity codes.
   - [x] Changes values for the activity variable.
-- [x] 4. Appropriately labels the data set with descriptive variable names.
-  - [x] Converts abbreviations to full words. *(3)*
+- [x] 4. Appropriately labels the data set with descriptive variable names. *(3)*
+  - [x] Converts abbreviations to full words. *(4)*
   - [x] Clears characters that are not allowed.
   - [x] Converts names to CamelCase.
 - [x] 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
@@ -32,6 +32,8 @@ The task was to make tidy dataset according to instructions. In order to impleme
 
 *2) Please refer to Codebook for full list of variables and motivations behind choice decisions.*
 
-*3) The only exception is the standard deviation, since the acronym is widely used among statisticians. Furthermore, using full phrase would make names of variables even more cumbersome.*
+*3) Keywords order was preserved in order to maintain some compatibility with the original dataset.*
+
+*4) The only exception is the standard deviation, since the acronym is widely used among statisticians. Furthermore, using full phrase would make names of variables even more cumbersome.*
 
 *4) This step requires "dplyr" package to be installed. If it is present, the script loads the library in the very beginning.*
