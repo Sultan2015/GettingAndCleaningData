@@ -1,6 +1,6 @@
 #Codebook#
 
-###Dmytro Goriunov###
+###(c) Dmytro Goriunov###
 
 This document describes the tidy (*1*) dataset that was a result of processing initial dataset according to Getting and Cleaning Dara course project reqiuirements.
 

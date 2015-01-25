@@ -1,5 +1,6 @@
 #Readme#
-###Dmytro Goriunov###
+
+###(c) Dmytro Goriunov###
 
 This is readme file for Course Project of Getting and Cleaning Data course.
 
