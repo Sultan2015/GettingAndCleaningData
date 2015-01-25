@@ -10,7 +10,7 @@ All measurements were carried out for 30 subjects (split into two groups, but me
 
 According to the assignment instructions, I have kept only mean values and standard deviations. MeanFreq (weighted average of the frequency components to obtain a mean frequency) and angles between vectors were dropped as being even more processed data (and also MeanFreq being alternative stat comparing to mean and std). Final set of variables contains 66 measurements plus activity and subject variables. After that, we took mean of all variables for each combination of subject and activity, which produced new dataset with 180 observations for each variable.
 
-Below one can see description of measurements. Since all measurements are normalized, they are unitless and their values lie within [-1, 1] range. Subject and activity variables were described earlier in the text, therefore  I have not add them to the table. Please not that the table is wider than appears, use scrollbar below to see all variables.
+Below one can see description of measurements. Since all measurements are normalized, they are unitless and their values lie within [-1, 1] range. Subject and activity variables were described earlier in the text; therefore, I have not add them to the table. Please note that the table is wider than appears, use scrollbar below to see all variables.
 
 No | Variable                                    | Domain    | Source  | Sensor        | Jerk| Dimension      | Stat | Unit
 ---|---------------------------------------------|-----------|---------|---------------|-----|----------------|------|---------
