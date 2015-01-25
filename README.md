@@ -25,7 +25,7 @@ The task was to make tidy dataset according to instructions. In order to impleme
   - [x] Clears characters that are not allowed.
   - [x] Converts names to CamelCase.
 - [x] 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  - [x] Calculates means. *(4)*
+  - [x] Calculates means. *(5)*
   - [x] Writes the resulting dataset in a separate text file.
 
 *1) It is assumed that relevant data directory exists in the working directory, so no error proofing procedures were introduced. Data from "Inertial Signals" subfolders were not taken into account since they do not contain required means and standard deviations.*
@@ -36,4 +36,4 @@ The task was to make tidy dataset according to instructions. In order to impleme
 
 *4) The only exception is the standard deviation, since the acronym is widely used among statisticians. Furthermore, using full phrase would make names of variables even more cumbersome.*
 
-*4) This step requires "dplyr" package to be installed. If it is present, the script loads the library in the very beginning.*
+*5) This step requires "dplyr" package to be installed. If it is present, the script loads the library in the very beginning.*
